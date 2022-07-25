@@ -30,13 +30,16 @@ After cleaning, selecting the best features and training the data, this model ac
 ###### Based on the classification report this model give 0.82 accuracy with f1-score of 0.82 and 0.83. This shows that this model is able to predict the two outcome expected from this model. Therefore, to know wheather someone has the possibility of having heart attack or not can be achieve throught this model.
 ![CR](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/classification_report.PNG)
 
-###### From the selected best model, hyperparameter tuning is perform for this model which give accuracy of 
+###### From the selected best model, hyperparameter tuning is perform for this model which give accuracy of 0.849.
 ![Hyperparameter tuning](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/hyperparameter_tuning_score.PNG)
 
-###### Training and validation of the loss shows on TensorBoard 
-![Training Loss](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Loss.PNG)
+###### Selected model is further tested with another dataset to determine the ability of this model to verify the outcome expexted. The accuracy using new dataset gives 0.9/90% of accuracy. Therefor, this model is good enough to predict the possibility of one having a heart attack or not. 
+![Model testing](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/model_test_accuracy.PNG)
 
 ## A little discussion
+
+## Streamlit Deployment 
+![Streamlit](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Streamlit%20app/Streamlit_app.PNG)
 
 ## Build With
  ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
@@ -49,4 +52,10 @@ After cleaning, selecting the best features and training the data, this model ac
  ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 
 ## Credit
-The dataset can be downloaded from Kaggle dataset at https://www.kaggle.com/datasets/kunalgupta2616/hackerearth-customer-segmentation
+The dataset can be downloaded from Kaggle dataset at https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset. 
+
+Creator of the dataset.
+1. Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
+2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
+3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
+4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
