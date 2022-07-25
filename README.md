@@ -37,6 +37,7 @@ After cleaning, selecting the best features and training the data, this model ac
 ![Model testing](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/model_test_accuracy.PNG)
 
 ## A little discussion
+For this dataset I belief that, a higher accuracy can be achieve through other approach of data cleaning and selecting features. For a better prediction especilly for medical purpose, a small 300 hundred data is not enough as there are many possibilities could occur. For example, in this dataset, age has a relatively low correlation with the outcome of having a heart attack. Older people is known to have a higher risk of having a heart attack, however, it does not apply to this dataset. Therefore, more testing need to be done to determine the ability of this model to make a better prediction.
 
 ## Streamlit Deployment 
 
