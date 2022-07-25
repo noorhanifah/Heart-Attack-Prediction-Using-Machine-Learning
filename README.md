@@ -16,19 +16,22 @@ To achieve the objective of this project, machine learning approach is used cons
 The selected model is then tested with new dataset to determine the accuracy of the model with another dataset. Testing the model also important to verify the usability of the model with another data. 
 
 ## Accuracy
-After cleaning, selecting the best features and training the data, this model achive up to 0.8 accuracy. 
+After cleaning, selecting the best features and training the data, this model acheive up to 0.8 accuracy. The best machine learning approach for this dataset is Logistic Regression with Standard Scaler giving the score of 0.82. 
 
-###### Image shows the training classification report.
-![Classification report](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Classification_report.PNG)
+###### The heatmap shows the correlation between all the features and the outcome of this dataset. It shows that some of the features has a low correlation to the outcome which might affect the accuracy of the model. 
+![Heatmap](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Heatmap.png)
 
-###### Graph shows the training and validation of the accuracy 
-![Plotted Accuracy](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Plotted%20Accuracy.PNG)
+###### After cleaning the dataset by, the score of the correlation to the outcome is shown. Some of the features which give low score are remove so that the model can do a better prediction. Features such as sex, fbs, restecg andl slp are remove from the training. 
+![Correlation](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/correlation_score.PNG)
 
-###### Training and validation of the accuracy shows on TensorBoard 
-![Training Accuracy](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Accuracy.PNG)
+###### The best model out of all the aproach is Logistic Regression with Standard Scalar as they give a score of 0.824. Thus, will be selected for this project. 
+![Best Model](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/best_model.PNG)
 
-###### Graph shows the training loss and validation loss of the model
-![Plotted Loss](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Plotted_loss.PNG)
+###### Based on the classification report this model give 0.82 accuracy with f1-score of 0.82 and 0.83. This shows that this model is able to predict the two outcome expected from this model. Therefore, to know wheather someone has the possibility of having heart attack or not can be achieve throught this model.
+![CR](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/classification_report.PNG)
+
+###### From the selected best model, hyperparameter tuning is perform for this model which give accuracy of 
+![Hyperparameter tuning](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/hyperparameter_tuning_score.PNG)
 
 ###### Training and validation of the loss shows on TensorBoard 
 ![Training Loss](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Loss.PNG)
