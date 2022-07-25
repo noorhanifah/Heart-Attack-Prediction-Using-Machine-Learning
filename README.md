@@ -16,7 +16,7 @@ To achieve the objective of this project, machine learning approach is used cons
 The selected model is then tested with new dataset to determine the accuracy of the model with another dataset. Testing the model also important to verify the usability of the model with another data. 
 
 ## Accuracy
-After cleaning, selecting the best features and training the data, this model can achive up to 70% accuracy. Below are some of the result given by the model after training. 
+After cleaning, selecting the best features and training the data, this model achive up to 0.8 accuracy. 
 
 ###### Image shows the training classification report.
 ![Classification report](https://github.com/noorhanifah/Bank-Marketing-Campaign-Analysis/blob/main/Image/Classification_report.PNG)
