@@ -39,10 +39,15 @@ After cleaning, selecting the best features and training the data, this model ac
 ## A little discussion
 
 ## Streamlit Deployment 
+
+###### The streamlit will look like:
 ![Streamlit](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Streamlit%20app/Streamlit_app.PNG)
 
 ###### If one has a high possibility of having a heart attack warning will be given.
 ![Stteamlit warning](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Streamlit%20app/Streamlit_app2.PNG)
+
+###### If one has a low possibility of having a heart attack no warning will be given.
+![Streamlit no warning](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Streamlit%20app/Streamlit_app3.PNG)
 
 ## Build With
  ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
