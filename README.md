@@ -68,3 +68,6 @@ Creator of the dataset.
 2. University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
 3. University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
 4. V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
+
+For more dataset information: 
+http://archive.ics.uci.edu/ml/datasets/Heart+Disease
