@@ -11,17 +11,17 @@ The objective of this project is to predict the possibility of one getting heart
 This model run using Python programming and the libraries available. It is also deployed using Streamlit for end user to predict their probability of getting heart attack. The model also tested with a set new dataset to calculate the accuracy of the selected model.
 
 ## Project Insight
-To achieve the objective of this project, machine learning approach is used considering the dataset availabel. This project used pipelines to predict which machine learning approach is the best suited for this dataset. The machine learning approach used are Logistic Regression, Decision Tree, Random Forest, Gradient Boosting(gboost) and K Nearest Neighbor. Hyperparameter tuning is applied to the model that give the highest score. 
+ To achieve the objective of this project, machine learning approach is used considering the dataset available. This project used pipelines to predict which machine learning algorithm is best suited for this dataset. The machine learning algorithm used are Logistic Regression, Decision Tree, Random Forest, Gradient Boosting(gboost) and K Nearest Neighbor(KNN). Hyperparameter tuning is applied to the model that give the highest score to increase further the accuracy. 
 
-The selected model is then tested with new dataset to determine the accuracy of the model with another dataset. Testing the model also important to verify the usability of the model with another data. 
+ The selected model is then tested with new dataset to determine the accuracy of the model with another dataset. Testing the model also important to verify the usability of the model with another data. 
 
 ## Accuracy
-After cleaning, selecting the best features and training the data, this model acheive up to 0.8 accuracy. The best machine learning approach for this dataset is Logistic Regression with Standard Scaler giving the score of 0.82. 
+ After cleaning, selecting the best features and training the data, this model achieve up to 0.8(80%) accuracy. The best machine learning approach for this dataset is Logistic Regression with Standard Scaler giving the score of 0.82(82%). 
 
 ###### The heatmap shows the correlation between all the features and the outcome of this dataset. It shows that some of the features has a low correlation to the outcome which might affect the accuracy of the model. 
 ![Heatmap](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Heatmap.png)
 
-###### After cleaning the dataset by, the score of the correlation to the outcome is shown. Some of the features which give low score are remove so that the model can do a better prediction. Features such as sex, fbs, restecg andl slp are remove from the training. 
+###### After cleaning the dataset, the score of the correlation to the outcome is shown. Some features which give low score are remove so that the model can do a better prediction. Features such as sex, fbs, restecg andl slp are remove from the training. 
 ![Correlation](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/correlation_score.PNG)
 
 ###### The best model out of all the aproach is Logistic Regression with Standard Scalar as they give a score of 0.824. Thus, will be selected for this project. 
@@ -30,14 +30,14 @@ After cleaning, selecting the best features and training the data, this model ac
 ###### Based on the classification report this model give 0.82 accuracy with f1-score of 0.82 and 0.83. This shows that this model is able to predict the two outcome expected from this model. Therefore, to know wheather someone has the possibility of having heart attack or not can be achieve throught this model.
 ![CR](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/classification_report.PNG)
 
-###### From the selected best model, hyperparameter tuning is perform for this model which give accuracy of 0.849.
+###### From the selected best model, hyperparameter tuning is performed for this model which give an increase in accuracy of 0.849.
 ![Hyperparameter tuning](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/hyperparameter_tuning_score.PNG)
 
-###### Selected model is further tested with another dataset to determine the ability of this model to verify the outcome expexted. The accuracy using new dataset gives 0.9/90% of accuracy. Therefor, this model is good enough to predict the possibility of one having a heart attack or not. 
+###### The selected model is further tested with another dataset to determine the ability of this model to verify the expected outcome. The accuracy using new dataset gives 0.9(90%) of accuracy. Therefor, this model is good enough to predict the possibility of one having a heart attack or not. 
 ![Model testing](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/model_test_accuracy.PNG)
 
 ## A little discussion
-For this dataset I belief that, a higher accuracy can be achieve through other approach of data cleaning and selecting features. For a better prediction especilly for medical purpose, a small 300 hundred data is not enough as there are many possibilities could occur. For example, in this dataset, age has a relatively low correlation with the outcome of having a heart attack. Older people is known to have a higher risk of having a heart attack, however, it does not apply to this dataset. Therefore, more testing need to be done to determine the ability of this model to make a better prediction.
+For this dataset I belief that, a higher accuracy can be achieve through other approach of data cleaning and selecting features. For a better prediction especially for medical purpose, a small 300 data is not enough as there are many possibilities could occur. For example, in this dataset, age has a relatively low correlation with the outcome of having a heart attack, however, older people is known to have a higher risk of having a heart attack, but it does not apply in this dataset. Therefore, more raw data and testing need to be done to determine the ability of this model to make a better prediction.
 
 ## Streamlit Deployment 
 
