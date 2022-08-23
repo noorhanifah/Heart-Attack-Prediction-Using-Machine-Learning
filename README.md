@@ -33,7 +33,7 @@ This model run using Python programming and the libraries available. It is also 
 ###### From the selected best model, hyperparameter tuning is performed for this model which give an increase in accuracy of 0.849.
 ![Hyperparameter tuning](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/hyperparameter_tuning_score.PNG)
 
-###### The selected model is further tested with another dataset to determine the ability of this model to verify the expected outcome. The accuracy using new dataset gives 0.9(90%) of accuracy. Therefor, this model is good enough to predict the possibility of one having a heart attack or not. 
+###### The selected model is further tested with another dataset to determine the ability of this model to verify the expected outcome. The accuracy using new dataset gives 0.9(90%) of accuracy. Therefore, this model is good enough to predict the possibility of one having a heart attack or not. 
 ![Model testing](https://github.com/noorhanifah/Heart-Attack-Prediction-Using-Machine-Learning/blob/main/Score/model_test_accuracy.PNG)
 
 ## A little discussion
